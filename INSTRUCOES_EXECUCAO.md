@@ -6,7 +6,7 @@ Você precisará de **3 terminais** abertos.
 Este simulador gera imagens de leitura de hidrômetro.
 
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/rodrigues-hidrometro/Simulador-Hidrometro
+cd /home/user/Projects/apps/hidrometro/rodrigues-hidrometro/Simulador-Hidrometro
 javac -d bin -sourcepath src src/main/java/br/com/simulador/Main.java
 java -cp bin main.java.br.com.simulador.Main
 ```
@@ -15,7 +15,7 @@ java -cp bin main.java.br.com.simulador.Main
 Este é o segundo simulador.
 
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/joaopaulo-hidrometro/hidrometro
+cd /home/user/Projects/apps/hidrometro/joaopaulo-hidrometro/hidrometro
 javac -d bin -sourcepath src src/main/java/br/hidrometro/Main.java
 java -cp bin main.java.br.hidrometro.Main
 ```
@@ -25,7 +25,7 @@ Este é o app principal que você vai usar.
 
 1. Compile o projeto:
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+cd /home/user/Projects/apps/hidrometro/MonitoringSystem
 javac -d bin -cp src src/br/com/monitoring/ui/gui/SwingMain.java src/br/com/monitoring/Main.java
 ```
 
