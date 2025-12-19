@@ -5,7 +5,7 @@
 Antes de compilar, você precisa baixar o driver JDBC do SQLite e suas dependências (SLF4J):
 
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+cd /home/user/Projects/apps/hidrometro/MonitoringSystem
 ./download_sqlite.sh
 ```
 
@@ -20,13 +20,13 @@ Todos os arquivos serão salvos em `lib/`.
 
 ### Para Interface Gráfica (GUI):
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+cd /home/user/Projects/apps/hidrometro/MonitoringSystem
 ./compile_gui.sh
 ```
 
 ### Para Interface CLI:
 ```bash
-cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+cd /home/user/Projects/apps/hidrometro/MonitoringSystem
 ./compile.sh
 ```
 
@@ -68,14 +68,14 @@ O sistema agora usa SQLite para persistência. O banco de dados será criado aut
 
 2. **Terminal 2**: Rode o simulador João Paulo
    ```bash
-   cd /home/athavus/Projects/apps/hidrometro/joaopaulo-hidrometro/hidrometro
+   cd /home/user/Projects/apps/hidrometro/joaopaulo-hidrometro/hidrometro
    javac -d bin -sourcepath src src/main/java/br/hidrometro/Main.java
    java -cp bin main.java.br.hidrometro.Main
    ```
 
 3. **Terminal 3**: Rode o Sistema de Monitoramento
    ```bash
-   cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+   cd /home/user/Projects/apps/hidrometro/MonitoringSystem
    ./compile_gui.sh
    ./run_gui.sh
    ```
@@ -90,7 +90,7 @@ O sistema agora usa SQLite para persistência. O banco de dados será criado aut
 
 ```bash
 # Compilar e executar GUI (tudo de uma vez)
-cd /home/athavus/Projects/apps/hidrometro/MonitoringSystem
+cd /home/user/Projects/apps/hidrometro/MonitoringSystem
 ./compile_gui.sh && ./run_gui.sh
 ```
 
